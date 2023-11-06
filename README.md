@@ -8,6 +8,6 @@
 
 ------------------------------------------------------------------------------
 
-Primitive Types are stored in the stack
+Primitive Types are stored in the stack.
 
-Reference Types are stored in the heap
+Reference Types are stored in the heap.
