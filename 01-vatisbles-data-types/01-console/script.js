@@ -121,9 +121,25 @@ console.log('%cHello world!', styles);
 // console.log(name, newName);
 // console.log(person, newPerson);
 
-let amount = '100';
-// amount = parseInt(amount);
+let amount = 'hello';
+
+//Convert string too a number
+amount = parseInt(amount);
 // amount = +amount;
-amount = Number(amount);
+// amount = Number(amount);
+
+// Convert a number to a string
+// amount = amount.toString();
+// amount = String(amount);
+
+// Convert string to decimal
+// amount = parseFloat(amount);
+
+// Covert number to boolean
+// amount = Boolean(amount);
+console.log(Math.sqrt(-1));
+console.log(1 + NaN);
+console.log(undefined + undefined);
+console.log('foo' / 3);
 
 console.log(amount, typeof amount);
